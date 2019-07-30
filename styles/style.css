@@ -1,0 +1,21 @@
+* {
+    background: #FFFEF9;
+    font-family: "Courier New";
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: grid | inline-grid;
+    grid-template-columns: 40p 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+
+#nav_bar {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
